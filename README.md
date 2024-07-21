@@ -1,4 +1,4 @@
-# Simple_Diarization
+# Simple Diarization in a Colab
 
 This is a very simple colab putting together a few models from Hugging Face to implement a simple audio to text + diarization script. The audio to text is implemented using different versions of Whisper including a small one fine tuned for Swiss German. 
 
@@ -10,3 +10,5 @@ The colab does 4 things:
 * Run an additional model to classify speakers and map them to intervals of time
 * Map whisper transcriptions to the speakers to print a diarization. 
 
+## Disclaimer
+This is not a supported product, it is supposed to be a one off thing, it might break if the imported libraries break.  
