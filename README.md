@@ -10,5 +10,7 @@ The colab does 4 things:
 * Run an additional model to classify speakers and map them to intervals of time
 * Map whisper transcriptions to the speakers to print a diarization. 
 
+**Run the colab with a T4 GPU runtime for a somewhat decent speed**
+
 ## Disclaimer
 This is not a supported product, it is supposed to be a one off thing, it might break if the imported libraries break.  
